@@ -1,0 +1,112 @@
+*{
+	font-size: .16rem;
+}
+.wrap {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.header {
+	height: .5rem;
+	width: 100%;
+	background: #C4493C;
+	display: flex;
+	line-height: .5rem;
+}
+.header span {
+	flex: 1;
+	text-align: center;
+	color: white;
+}
+.header span input {
+	border-radius: .5rem;
+	padding-left: .1rem;
+}
+.main {
+	
+}
+.main nav {
+	height: .4rem;
+	width: 100%;
+	line-height: .4rem;
+}
+.main nav ul{
+	display: flex;
+}
+.main nav ul li {
+	flex: 1;
+	text-align: center;
+}
+.main .swiper-container {
+	height: 1.5rem;
+	
+}
+.main .swiper-container ul {
+	height: 100%;
+}
+.main .swiper-container ul li {
+	height: 100%;
+}
+.main .swiper-container ul li img {
+	height: 100%;
+}
+.main .lie {
+	margin-top: .1rem;
+}
+.main .lie ul {
+	display: flex;
+}
+.main .lie ul li {
+	flex: 1;
+	text-align: center;
+}
+.main .lie ul li p {
+	height: .5rem;
+	width: .5rem;
+	border-radius: 50%;
+	background: lime;
+	margin: 0 auto;
+	margin-top: .05rem;
+}
+.footer {
+	height: .5rem;
+	width: 100%;
+	background: #2A2724;
+	position: fixed;
+	bottom: 0;
+	color: white;
+}
+.footer ul {
+	padding-top: .1rem;
+	display: flex;
+}
+.footer ul li {
+	flex: 1;
+	text-align: center;
+	line-height: .2rem;
+}
+.footer ul li b{
+	font-weight: normal;
+}
+.footer ul li i {
+	display: block;
+}
+h2 {
+	height: .5rem;
+	line-height: .5rem;
+	padding-left: .2rem;
+}
+.big ul {
+	display: flex;
+	
+}
+.big ul li {
+	padding: .1rem;
+}
+.big ul li img {
+	display: block;
+	width: 100%;
+}
+.big ul li p {
+	color: #000000;
+}
